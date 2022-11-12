@@ -1,0 +1,436 @@
+*{
+    box-sizing: border-box;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+body > header{
+    width: 100%;
+    height: fit-content;
+    float: left;
+}
+
+body > header > nav{
+    width: 100%;
+    height: 140px;
+}
+
+body > header > nav > #top{
+    width: 100%;
+    height: 90px;
+    background-color: #2E7061;
+    float: left;
+}
+
+body > header > nav > #top > #left{
+    height: auto;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+body > header > nav > #top > #left > div{
+    height: fit-content;
+    width: 62.5%;
+    display: inline-block;
+    text-align: center;
+    float: none;
+    margin: 20px 0% 0px 37.5%;
+}
+
+body > header > nav > #top > #left > div > span{
+    margin: 0px 0px 0px 0px;
+    font-size: .8em;
+    color: gainsboro;
+
+    float: left;
+}
+
+body > header > nav > #top > #left > div > img{
+    margin: 5px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    clear: both;
+
+    display: block;
+    text-align: center;
+    float: left;
+}
+
+body > header > nav > #top > #left > div > a{
+    font-size: 1.25em;
+    margin: 3.5px 0px 0px 10px;
+    text-decoration: none;
+    color: white;
+
+    display: block;
+    text-align: center;
+    float: left;
+}
+
+
+
+
+body > header > nav > #top > #middle{
+    height: 100%;
+    width: 60%;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    float: left;
+    text-align: center;
+
+    margin: 0px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
+}
+
+body > header > nav > #top > #middle > a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+
+    height: auto;
+    width: 100%;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+
+body > header > nav > #top > #right{
+    height: 100%;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+body > header > nav > #top > #right > div{
+    width: 100%;
+    height: auto;
+
+    margin: 30px 0px 0px 0px;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+body > header > nav > #top > #right > div > a{
+    margin: 0px 2.5% 0px 5%;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+body > header > nav > #top > #right > div > a > img{
+    margin: 0px 0px 0px 0px;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+
+
+body > header > nav > #bottom{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+
+    text-align: center;
+    float: left;
+}
+
+
+body > header > nav > #bottom > ul{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+body > header > nav > #bottom > ul > li{
+    height: auto;
+
+    width: fit-content;
+    margin: 0px 1% 0px 0;
+    padding: 0px 0px 10px 0px;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+body > header > nav > #bottom > ul > #news{
+    width: 95px;
+    border-bottom: 10px solid #2E7061;
+}
+
+body > header > nav > #bottom > ul > li > a{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+
+
+main{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+main > h1{
+    font-size: 5em;
+    font-style: bold;
+    padding: 25px 15% 20px 15%;
+
+    display: block;
+    text-align: center;
+}
+
+main > h1 > a{
+    text-decoration: none;
+    color: black
+}
+
+
+main > img{
+    width: 225px;
+    height: 450px;
+
+    object-fit: cover; 
+    object-position: 45% 0;
+}
+
+#secondMain{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    padding: 10px 0px 0px 40px;
+    clear: both;
+    float: left;
+}
+
+#secondMain > div{
+    border-top: 5px solid #2E7061;
+    height: 250px;
+    width: 22%;
+    text-align: center;
+    float: left;
+    margin: 50px 1% 100px 0px;
+}
+
+#secondMain > div > a{
+    text-decoration: none;
+}
+
+#secondMain > div > a > img{
+    width: 90%;
+    height: 150px;
+    padding: 10px 0px 0px 0px;
+}
+
+#secondMain > div > h1{
+    font-size: 1.2em;
+    padding: 10px 10px 20px 10px;
+    text-align: left;
+}
+
+
+
+footer{
+    width: 100%;
+    height:auto;
+    float: left;
+    background-color: white;
+    margin: 100px 0px 0px 0px;
+}
+
+footer > nav{
+    width: 100%;
+    height: fit-content;
+    float:left;
+    background-color: black;
+}
+
+footer > nav > ul{
+    width: 100%;
+    height: auto;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+footer > nav > ul > li{
+    list-style-type: none;
+    margin: 0px 5px 0px 10px;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+footer > nav > ul > li > a{
+    text-decoration: none;
+    color: gainsboro;
+    float: left;
+}
+
+footer > nav > ul > li > span{
+    text-decoration: none;
+    color: gainsboro;
+    float: left;
+}
+footer > nav > ul > li > p{
+    text-decoration: none;
+    color: gainsboro;
+    float: left;
+}
+
+#rowOne{
+    padding: 70px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    height: auto;
+}
+
+#rowTwo{
+    padding: 5px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    height: auto;
+}
+
+#rowThree{
+    padding: 5px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    height: auto;
+}
+
+
+#bottom > ul > .impossibleBurger{
+    display: none;
+}
+
+#bottom > ul > .impossibleBurger > a > img{
+    height: 25px;
+    width: 25px;
+}
+
+body > header > nav > #top > #right > div > .impossibleBurger{
+    display: none;
+}
+
+body > header > nav > #top > #right > div > .impossibleBurger > img{
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    #bottom > ul > .impossibleBurger{
+    display: block;
+    text-align: left;
+    margin: 10px 0px -20px 10%;
+    }
+    #bottom > ul > .impossibleBurger > a > img{
+        height: 45px;
+        width: 45px;
+    }
+
+    #bottom > ul > .buttonTemp{
+        display: none;
+    }
+
+    body > header > nav > #top > #right > div > .impossibleBurger{
+        display: inline-block;
+    }
+
+    body > header > nav > #top > #right > div > .impossibleBurger > img{
+        height: 45px;
+        width: 45px;
+    }
+
+    body > header > nav > #top > #right > div > .socialMedia{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    #secondMain > div{
+        width: 30%;
+        display: inline-block;
+        text-align: center;
+        margin: 50px 1% 100px 1%;
+    }
+
+    main > h1{
+        font-size: 4em;
+        padding: 25px 10% 20px 10%;
+    
+        display: block;
+        text-align: center;
+    }
+
+    body > header > nav > #top > #middle > a{
+        font-size: 1.5em;
+    
+        height: auto;
+        width: 100%;
+    
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 700px){
+    main > img{
+        width: 25%;
+        height: 500px;
+
+        margin: inherit 5% inherit 7.5%;
+    }
+    main > img + img{
+        width: 25%;
+        height: 500px;
+
+        margin: inherit 5% inherit 0px;
+    }
+    main > img + img + img{
+        width: 25%;
+        height: 500px;
+
+        margin: inherit 7.5% inherit 0px;
+    }
+
+    #secondMain > div{
+        width: 45%;
+        display: inline-block;
+        text-align: center;
+        margin: 50px 2.5% 100px 2.5%;
+    }
+}
+
